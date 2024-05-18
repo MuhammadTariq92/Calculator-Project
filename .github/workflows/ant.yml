@@ -21,6 +21,9 @@ jobs:
         java-version: '20'
         distribution: 'adopt'
 
+      - name: Select Directory
+      run: cd src
+
     - name: Compile Java code
       run: javac Calculator.java
 
