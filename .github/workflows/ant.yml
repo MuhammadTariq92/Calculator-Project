@@ -23,13 +23,12 @@ jobs:
       with:
         java-version: '20'
         distribution: 'adopt'
-        cache: 'gradle'
 
     - name: Install Apache Ant
-      run: sudo apt-get install ant
+      run: sudo apt-get install -y ant
 
     - name: Build with Ant
       run: ant -f build.xml jar
 
     - name: Run the application
-      run: java -jar Calculator.jar
+      run: java -jar build/Calculator.jar
