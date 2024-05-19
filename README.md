@@ -56,7 +56,7 @@ Enter an Expression (e.g., 5 + 10): 5 * 3
 Result: 5*3 = 15.0
 
 
-<h3>Code Overview</h3>
+<h3>Code Overview:</h3>
 The Calculator class performs basic arithmetic operations. Below is the complete source code:
 
 java
