@@ -47,6 +47,7 @@ Alternatively, run the program without arguments to enter an expression interact
 
 
 java Calculator
+<br>
 Example:
 
 ****WELCOME TO BASIC ARITHMETIC CALCULATOR*****
