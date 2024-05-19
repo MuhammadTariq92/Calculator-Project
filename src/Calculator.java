@@ -66,3 +66,12 @@ public static double calculateExpression(String input) {
     if (operatorIndex == -1) {
         throw new IllegalArgumentException("Invalid input. Please use a valid format, e.g., '5 + 10'");
     }
+
+    // Attempt to parse the numbers on either side of the operator
+    try {
+        num1 = Double.parseDouble(input.substring(0, operatorIndex));
+        num2 = Double.parseDouble(input.substring(operatorIndex + 1));
+    } catch (NumberFormatException | IndexOutOfBoundsException e) {
+        // If parsing fails, throw an exception
+        throw new IllegalArgumentException("Invalid input. Please use a valid format, e.g., '5 + 10'");
+    }
