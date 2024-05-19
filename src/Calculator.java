@@ -24,4 +24,21 @@ public class Calculator {
         }
     }
 
-    
+    // Method to get input from the user
+    private static String getInputFromUser() {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("****WELCOME TO CALCULATOR***** ");
+            System.out.print("Enter an Expression (e.g., 5 + 10): ");
+
+            if (!scanner.hasNextLine()) {
+                System.out.println("No input provided.");
+                return null;
+            }
+
+            return scanner.nextLine();
+        } catch (NoSuchElementException e) {
+            System.out.println("Error: No input provided.");
+            return null;
+        }
+    }
+}
