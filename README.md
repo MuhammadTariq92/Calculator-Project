@@ -57,6 +57,28 @@ Result: 5*3 = 15.0
 
 
 <h3>Code Overview:</h3>
+The Calculator class is designed to perform basic arithmetic operations. Below is a detailed structure of the code:
+
+Calculator
+├── main
+│   ├── getInputFromUser
+│   └── calculateExpression
+│       └── performOperation
+
+<h2>Main Method</h2>
+The main method serves as the entry point for the program. It retrieves input, either from command-line arguments or through interactive user input, and attempts to calculate the result.
+
+<h2>getInputFromUser Method</h2>
+This method prompts the user to enter an arithmetic expression if no command-line argument is provided. It handles input errors and ensures the user provides a valid expression.
+
+<h2>calculateExpression Method</h2>
+This method processes the input string, identifies the operator, and splits the string into two operands. It handles parsing errors and ensures the expression format is valid.
+
+<h2>performOperation Method</h2/
+This method performs the arithmetic operation based on the identified operator and returns the result. It includes error handling for division by zero and invalid operators.
+
+Here is the complete source code:
+
 The Calculator class performs basic arithmetic operations. Below is the complete source code:
 
 java
