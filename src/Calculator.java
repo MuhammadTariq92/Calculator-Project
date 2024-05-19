@@ -75,3 +75,9 @@ public static double calculateExpression(String input) {
         // If parsing fails, throw an exception
         throw new IllegalArgumentException("Invalid input. Please use a valid format, e.g., '5 + 10'");
     }
+
+     // Perform the mathematical operation and return the result
+     return performOperation(num1, num2, operator);
+    }
+
+    
