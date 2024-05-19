@@ -17,7 +17,7 @@ public class Calculator {
 
         // Attempt to parse and calculate the input expression
         try {
-            double result = CalculatorUtils.calculateExpression(input);
+            double result = Calculator.calculateExpression(input);
             System.out.println("Result: " + input + " = " + result);
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
@@ -42,3 +42,6 @@ public class Calculator {
         }
     }
 }
+
+// Method to calculate the expression
+public static double calculateExpression(String input) {
