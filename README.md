@@ -56,7 +56,7 @@ Enter an Expression (e.g., 5 + 10): 5 * 3
 Result: 5*3 = 15.0
 
 
-<h5>Code Overview</h5>
+<h3>Code Overview</h3>
 The Calculator class performs basic arithmetic operations. Below is the complete source code:
 
 java
@@ -165,11 +165,11 @@ public class Calculator {
 
 
 
-<h3>Contributing:</h3>
+<h2>Contributing:</h2>
 
 -Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes. Ensure to follow the existing code style and include appropriate test cases.
 
-<h3>License:</h3>
+<h2>License:</h2>
 
 -This project is licensed under the MIT License. See the LICENSE file for details.
 
