@@ -76,4 +76,4 @@ public class Calculator {
 
         System.out.println("Result: " + num1 + " " + operator + " " + num2 + " = " + result);
     }
-}
+
