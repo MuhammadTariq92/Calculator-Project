@@ -98,3 +98,8 @@ public static double calculateExpression(String input) {
             }
         default:
 
+        throw new IllegalArgumentException("Invalid operator. Please use one of +, -, *, /"); // Handle invalid operators
+    }
+}
+
+
