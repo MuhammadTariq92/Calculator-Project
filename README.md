@@ -38,7 +38,8 @@ This project implements a basic arithmetic calculator in Java that performs oper
 ## Usage
 You can run the compiled Java program by providing an arithmetic expression as a command-line argument:
 
-**Run The Java Program**:
+<h4>**Run The Java Program**:<h4>
+<br>
 
 java Calculator "5 + 10"
 
@@ -49,7 +50,9 @@ java Calculator
 Example:
 
 ****WELCOME TO BASIC ARITHMETIC CALCULATOR*****
+<br>
 Enter an Expression (e.g., 5 + 10): 5 * 3
+<br>
 Result: 5*3 = 15.0
 
 
