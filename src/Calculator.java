@@ -80,15 +80,17 @@ public static double calculateExpression(String input) {
      return performOperation(num1, num2, operator);
     }
 
-    // Method to perform the mathematical operation
-    private static double performOperation(double num1, double num2, char operator) {
-        switch (operator) {
-            case '+':
-                return num1 + num2; // Perform addition
-            case '-':
-                return num1 - num2; // Perform subtraction
-            case '*':
-                return num1 * num2; // Perform multiplication
-            case '/':
-                if (num2 != 0) {
-                    return num1 / num2; // Perform division if the divisor is not zero
+   // Method to perform the mathematical operation
+   private static double performOperation(double num1, double num2, char operator) {
+    switch (operator) {
+        case '+':
+            return num1 + num2; // Perform addition
+        case '-':
+            return num1 - num2; // Perform subtraction
+        case '*':
+            return num1 * num2; // Perform multiplication
+        case '/':
+            if (num2 != 0) {
+                return num1 / num2; // Perform division if the divisor is not zero
+            
+
