@@ -1,4 +1,4 @@
-# Basic Arithmetic Calculator in Java
+# Calculator Project In Java
 
 This project implements a basic arithmetic calculator in Java that performs operations such as addition, subtraction, multiplication, and division.
 
