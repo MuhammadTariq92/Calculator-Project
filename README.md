@@ -12,9 +12,9 @@ This project implements a basic arithmetic calculator in Java that performs oper
 - [License](#license)
 
 ## Features
-- Supports basic arithmetic operations: addition, subtraction, multiplication, and division.
-- Accepts input via command-line arguments or user input.
-- Handles invalid input and provides appropriate error messages.
+- **Basic Arithmetic Operations**: Supports addition, subtraction, multiplication, and division.
+- **Input Methods**: Accepts input through command-line arguments or interactive user input.
+- **Error Handling**: Provides clear error messages for invalid input and handles division by zero.
 
 ## Prerequisites
 - Java Development Kit (JDK) installed on your machine.
@@ -22,21 +22,21 @@ This project implements a basic arithmetic calculator in Java that performs oper
 - Git installed for cloning the repository.
 
 ## Installation
-1. Clone the repository from GitHub:
+1. **Clone the repository from GitHub**:
     ```sh
     git clone https://github.com/username/calculator.git
     ```
-2. Navigate to the project directory:
+2. **Navigate to the project directory**:
     ```sh
     cd calculator
     ```
-3. Compile the Java program:
+3. **Compile the Java program**:
     ```sh
     javac Calculator.java
     ```
 
 ## Usage
-Run the compiled Java program and provide an arithmetic expression:
+You can run the compiled Java program by providing an arithmetic expression as a command-line argument:
 
 ```sh
 java Calculator "5 + 10"
