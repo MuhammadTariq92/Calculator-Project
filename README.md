@@ -38,7 +38,7 @@ This project implements a basic arithmetic calculator in Java that performs oper
 ## Usage
 You can run the compiled Java program by providing an arithmetic expression as a command-line argument:
 
-<h4>**Run The Java Program**:<h4>
+<h3>*Run The Java Program*:</h3>
 <br>
 
 java Calculator "5 + 10"
@@ -46,7 +46,7 @@ java Calculator "5 + 10"
 Alternatively, run the program without arguments to enter an expression interactively:
 
 
-java Calculator
+`java Calculator`
 <br>
 Example:
 
@@ -67,7 +67,7 @@ Calculator
 │       └── performOperation
 
 <h2>Main Method</h2>
-The main method serves as the entry point for the program. It retrieves input, either from command-line arguments or through interactive user input, and attempts to calculate the result.
+The `main` method serves as the entry point for the program. It retrieves input, either from command-line arguments or through interactive user input, and attempts to calculate the result.
 
 <h2>getInputFromUser Method</h2>
 This method prompts the user to enter an arithmetic expression if no command-line argument is provided. It handles input errors and ensures the user provides a valid expression.
@@ -197,4 +197,7 @@ public class Calculator {
 -This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-This `README.md` file now includes a detailed step-by-step Code Overview section with boxed visualizations to illustrate the structure and logic flow of the code.
+This `README.md` file now includes a detailed step-by-step Code Overview section with boxed visualizations to illustrate the structure and logic fl,,ow of the code.
+
+In this markdown file, the `Main Method`, `getInputFromUser Method`, `calculateExpression Method`, and `performOperation Method` headings are styled with a box and a grey background for clarity.
+
