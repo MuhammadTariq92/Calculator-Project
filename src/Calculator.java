@@ -51,3 +51,13 @@ public static double calculateExpression(String input) {
     double num1, num2;
     char operator = ' ';
     int operatorIndex = -1;
+
+    // Find the operator and its index
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        if (c == '+' || c == '-' || c == '*' || c == '/') {
+            operator = c;
+            operatorIndex = i;
+            break;
+        }
+    }
