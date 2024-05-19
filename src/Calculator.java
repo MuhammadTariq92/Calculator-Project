@@ -45,3 +45,9 @@ public class Calculator {
 
 // Method to calculate the expression
 public static double calculateExpression(String input) {
+
+    // Remove all whitespace for simpler processing
+    input = input.replaceAll("\\s+", "");
+    double num1, num2;
+    char operator = ' ';
+    int operatorIndex = -1;
