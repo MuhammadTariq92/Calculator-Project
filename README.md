@@ -24,7 +24,7 @@ This project implements a basic arithmetic calculator in Java that performs oper
 ## Installation
 1. **Clone the repository from GitHub**:
     ```sh
-    git clone https://github.com/username/calculator.git
+    git clone https://github.com/MuhammadTariq92/calculator.git
     ```
 2. **Navigate to the project directory**:
     ```sh
