@@ -14,3 +14,14 @@ public class Calculator {
                 return; // Exit if no input was provided
             }
         }
+
+        // Attempt to parse and calculate the input expression
+        try {
+            double result = CalculatorUtils.calculateExpression(input);
+            System.out.println("Result: " + input + " = " + result);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    
