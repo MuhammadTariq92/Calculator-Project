@@ -61,3 +61,8 @@ public static double calculateExpression(String input) {
             break;
         }
     }
+
+    // If no operator was found, throw an exception
+    if (operatorIndex == -1) {
+        throw new IllegalArgumentException("Invalid input. Please use a valid format, e.g., '5 + 10'");
+    }
