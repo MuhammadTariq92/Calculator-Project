@@ -1,66 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator Project</title>
-</head>
-<body>
-    <h1>Basic Arithmetic Calculator in Java</h1>
-    <p>This project implements a basic arithmetic calculator in Java that performs operations such as addition, subtraction, multiplication, and division.</p>
+# Basic Arithmetic Calculator in Java
 
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#code-overview">Code Overview</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#license">License</a></li>
-    </ul>
+This project implements a basic arithmetic calculator in Java that performs operations such as addition, subtraction, multiplication, and division.
 
-    <h2 id="features">Features</h2>
-    <ul>
-        <li>Supports basic arithmetic operations: addition, subtraction, multiplication, and division.</li>
-        <li>Accepts input via command-line arguments or user input.</li>
-        <li>Handles invalid input and provides appropriate error messages.</li>
-    </ul>
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [Contributing](#contributing)
+- [License](#license)
 
-    <h2 id="prerequisites">Prerequisites</h2>
-    <ul>
-        <li>Java Development Kit (JDK) installed on your machine.</li>
-        <li>Basic knowledge of Java programming.</li>
-        <li>Git installed for cloning the repository.</li>
-    </ul>
+## Features
+- Supports basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Accepts input via command-line arguments or user input.
+- Handles invalid input and provides appropriate error messages.
 
-    <h2 id="installation">Installation</h2>
-    <ol>
-        <li>Clone the repository from GitHub:
-            <pre><code>git clone https://github.com/username/calculator.git</code></pre>
-        </li>
-        <li>Navigate to the project directory:
-            <pre><code>cd calculator</code></pre>
-        </li>
-        <li>Compile the Java program:
-            <pre><code>javac Calculator.java</code></pre>
-        </li>
-    </ol>
+## Prerequisites
+- Java Development Kit (JDK) installed on your machine.
+- Basic knowledge of Java programming.
+- Git installed for cloning the repository.
 
-    <h2 id="usage">Usage</h2>
-    <p>Run the compiled Java program and provide an arithmetic expression:</p>
-    <pre><code>java Calculator "5 + 10"</code></pre>
-    <p>Alternatively, run the program without arguments to enter an expression interactively:</p>
-    <pre><code>java Calculator</code></pre>
-    <p>Example:</p>
-    <pre><code>
-****WELCOME TO BASIC ARITHMETIC CALCULATOR***** 
+## Installation
+1. Clone the repository from GitHub:
+    ```sh
+    git clone https://github.com/username/calculator.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd calculator
+    ```
+3. Compile the Java program:
+    ```sh
+    javac Calculator.java
+    ```
+
+## Usage
+Run the compiled Java program and provide an arithmetic expression:
+
+```sh
+java Calculator "5 + 10"
+Alternatively, run the program without arguments to enter an expression interactively:
+
+sh
+Copy code
+java Calculator
+Example:
+
+arduino
+Copy code
+****WELCOME TO BASIC ARITHMETIC CALCULATOR*****
 Enter an Expression (e.g., 5 + 10): 5 * 3
 Result: 5*3 = 15.0
-    </code></pre>
+Code Overview
+The Calculator class performs basic arithmetic operations. Below is the complete source code:
 
-    <h2 id="code-overview">Code Overview</h2>
-    <pre><code>
+java
+Copy code
 import java.util.Scanner;
 import java.util.NoSuchElementException;
 
@@ -161,12 +157,3 @@ public class Calculator {
         }
     }
 }
-    </code></pre>
-
-    <h2 id="contributing">Contributing</h2>
-    <p>Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.</p>
-
-    <h2 id="license">License</h2>
-    <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
-</body>
-</html>
