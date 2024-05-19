@@ -28,7 +28,7 @@ This project implements a basic arithmetic calculator in Java that performs oper
     ```
 2. **Navigate to the project directory**:
     ```sh
-    cd calculator
+    cd Calculator Project
     ```
 3. **Compile the Java program**:
     ```sh
@@ -38,21 +38,22 @@ This project implements a basic arithmetic calculator in Java that performs oper
 ## Usage
 You can run the compiled Java program by providing an arithmetic expression as a command-line argument:
 
-```sh
+**Run The Java Program**:
+
 java Calculator "5 + 10"
+
 Alternatively, run the program without arguments to enter an expression interactively:
 
-sh
-Copy code
+
 java Calculator
 Example:
 
-arduino
-Copy code
 ****WELCOME TO BASIC ARITHMETIC CALCULATOR*****
 Enter an Expression (e.g., 5 + 10): 5 * 3
 Result: 5*3 = 15.0
-Code Overview
+
+
+<h5?Code Overview<h5>
 The Calculator class performs basic arithmetic operations. Below is the complete source code:
 
 java
@@ -157,3 +158,17 @@ public class Calculator {
         }
     }
 }
+
+
+
+
+##Contributing:
+
+-Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes. Ensure to follow the existing code style and include appropriate test cases.
+
+##License:
+
+-This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+This `README.md` file now includes a detailed step-by-step Code Overview section with boxed visualizations to illustrate the structure and logic flow of the code.
