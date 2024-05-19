@@ -66,8 +66,8 @@ Calculator
 │   └── calculateExpression
 │       └── performOperation
 
-<h2>Main Method</h2>
-The `main` method serves as the entry point for the program. It retrieves input, either from command-line arguments or through interactive user input, and attempts to calculate the result.
+<h2><i></i>Main Method</i></h2>
+The main method serves as the entry point for the program. It retrieves input, either from command-line arguments or through interactive user input, and attempts to calculate the result.
 
 <h2>getInputFromUser Method</h2>
 This method prompts the user to enter an arithmetic expression if no command-line argument is provided. It handles input errors and ensures the user provides a valid expression.
@@ -80,7 +80,7 @@ This method performs the arithmetic operation based on the identified operator a
 
 Here is the complete source code:
 
-The Calculator class performs basic arithmetic operations. Below is the complete source code:
+The `Calculator` class performs basic arithmetic operations. Below is the complete source code:
 
 java
 Copy code
