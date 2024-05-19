@@ -93,4 +93,8 @@ public static double calculateExpression(String input) {
             if (num2 != 0) {
                 return num1 / num2; // Perform division if the divisor is not zero
             
+            } else {
+                throw new IllegalArgumentException("Cannot Divide By Zero"); // Handle division by zero
+            }
+        default:
 
