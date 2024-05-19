@@ -38,7 +38,7 @@ This project implements a basic arithmetic calculator in Java that performs oper
 ## Usage
 You can run the compiled Java program by providing an arithmetic expression as a command-line argument:
 
-<h3>*Run The Java Program*:</h3>
+<h3><b></b>*Run The Java Program*:</b></h3>
 <br>
 
 java Calculator "5 + 10"
@@ -57,7 +57,7 @@ Enter an Expression (e.g., 5 + 10): 5 * 3
 Result: 5*3 = 15.0
 
 
-<h3>Code Overview:</h3>
+<h2><i></i>Code Overview:</i></h2>
 The Calculator class is designed to perform basic arithmetic operations. Below is a detailed structure of the code:
 
 Calculator
@@ -66,16 +66,16 @@ Calculator
 │   └── calculateExpression
 │       └── performOperation
 
-<h2><i></i>Main Method</i></h2>
+<h2><i>Main Method</i></h2>
 The main method serves as the entry point for the program. It retrieves input, either from command-line arguments or through interactive user input, and attempts to calculate the result.
 
-<h2>getInputFromUser Method</h2>
+<h2><i>getInputFromUser Method</i></h2>
 This method prompts the user to enter an arithmetic expression if no command-line argument is provided. It handles input errors and ensures the user provides a valid expression.
 
-<h2>calculateExpression Method</h2>
+<h2><i>calculateExpression Method</i></h2>
 This method processes the input string, identifies the operator, and splits the string into two operands. It handles parsing errors and ensures the expression format is valid.
 
-<h2>performOperation Method</h2/
+<h2><i>performOperation Method</i></h2/
 This method performs the arithmetic operation based on the identified operator and returns the result. It includes error handling for division by zero and invalid operators.
 
 Here is the complete source code:
@@ -188,11 +188,11 @@ public class Calculator {
 
 
 
-<h2>Contributing:</h2>
+<h2><i><b>Contributing:</b></i></h2>
 
 -Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes. Ensure to follow the existing code style and include appropriate test cases.
 
-<h2>License:</h2>
+<h2><i><b>License:</b></i></h2>
 
 -This project is licensed under the MIT License. See the LICENSE file for details.
 
